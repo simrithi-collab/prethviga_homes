@@ -1,0 +1,23 @@
+
+.vscode/
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+.DS_Store                 
+Thumbs.db                  
+*.swp *.swo               
+*.log *.tmp *.bak *.sw?    
+
+# Build/Output directories (ignore generated files)
+dist/                      
+build/                    
+out/                       
+node_modules/             
+yarn-error.log            
+
+# Browser-specific cache (optional, if relevant)
+*.webapp                   
+*.webidl                  
+
+# IDE/editor-specific (other)
+*.code-workspace           
